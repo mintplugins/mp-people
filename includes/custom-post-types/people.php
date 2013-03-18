@@ -33,6 +33,7 @@ function mp_people_post_type() {
 			'public' 			=> true,
 			'publicly_queryable'=> true,
 			'show_ui' 			=> true, 
+			'show_in_nav_menus' => false,
 			'show_in_menu' 		=> true, 
 			'menu_position'		=> 5,
 			'query_var' 		=> true,

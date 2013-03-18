@@ -96,41 +96,43 @@ add_action( 'init', 'mp_people_textdomain', 1 );
 | INCLUDES
 |--------------------------------------------------------------------------
 */
-
-/**
- * If mp_core isn't active, stop and install it now
- */
-if (!function_exists('mp_core_textdomain')){
-	
+function mp_people_include_files(){
 	/**
-	 * Include Plugin Checker
+	 * If mp_core isn't active, stop and install it now
 	 */
-	require( MP_PEOPLE_PLUGIN_DIR . 'includes/plugin-checker/plugin-checker.php' );
-	
-	/**
-	 * Check if wp_core in installed
-	 */
-	require( MP_PEOPLE_PLUGIN_DIR . 'includes/plugin-checker/included-plugins/mp-core-check.php' );
-	
-}
-/**
- * Otherwise, if mp_core is active, carry out the plugin's functions
- */
-else{
-	
-	/**
-	 * Settings Metabox for mp_people
-	 */
-	require( MP_PEOPLE_PLUGIN_DIR . 'includes/metaboxes/mp-person-meta/mp-person-meta.php' );
-	
-	/**
-	 * Settings Metabox for mp_social_networks
-	 */
-	require( MP_PEOPLE_PLUGIN_DIR . 'includes/metaboxes/mp-social-networks/mp-social-networks.php' );
-	
-	/**
-	 * People Custom Post Type
-	 */
-	require( MP_PEOPLE_PLUGIN_DIR . 'includes/custom-post-types/people.php' );
+	if (!function_exists('mp_core_textdomain')){
 		
+		/**
+		 * Include Plugin Checker
+		 */
+		require( MP_PEOPLE_PLUGIN_DIR . 'includes/plugin-checker/plugin-checker.php' );
+		
+		/**
+		 * Check if wp_core in installed
+		 */
+		require( MP_PEOPLE_PLUGIN_DIR . 'includes/plugin-checker/included-plugins/mp-core-check.php' );
+		
+	}
+	/**
+	 * Otherwise, if mp_core is active, carry out the plugin's functions
+	 */
+	else{
+		
+		/**
+		 * Settings Metabox for mp_people
+		 */
+		require( MP_PEOPLE_PLUGIN_DIR . 'includes/metaboxes/mp-person-meta/mp-person-meta.php' );
+		
+		/**
+		 * Settings Metabox for mp_social_networks
+		 */
+		require( MP_PEOPLE_PLUGIN_DIR . 'includes/metaboxes/mp-social-networks/mp-social-networks.php' );
+		
+		/**
+		 * People Custom Post Type
+		 */
+		require( MP_PEOPLE_PLUGIN_DIR . 'includes/custom-post-types/people.php' );
+			
+	}
 }
+add_action('plugins_loaded', 'mp_people_include_files', 9);
