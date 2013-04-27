@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Move Plugins - People
+Plugin Name: MP People
 Plugin URI: http://moveplugins.com
 Description: Save person profiles and display them in themes etc. 
 Version: 1.0
-Author: Phil Johnston
+Author: Move Plugins
 Author URI: http://moveplugins.com
 Text Domain: mp_people
 Domain Path: languages
@@ -117,6 +117,11 @@ function mp_people_include_files(){
 	 * Otherwise, if mp_core is active, carry out the plugin's functions
 	 */
 	else{
+		
+		/**
+		 * Update script - keeps this plugin up to date
+		 */
+		require( MP_PEOPLE_PLUGIN_DIR . 'includes/updater/mp-people-update.php' );
 		
 		/**
 		 * Settings Metabox for mp_people
