@@ -45,7 +45,7 @@ function mp_people_post_type() {
 		); 
 		register_post_type( 'mp_people', apply_filters( 'mp_people_people_post_type_args', $people_args ) );
 }
-add_action( 'init', 'mp_people_post_type', 100 );
+add_action( 'init', 'mp_people_post_type', 0 );
 
 /**
  * People Groups Taxonomy

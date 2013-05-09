@@ -105,7 +105,7 @@ function mp_people_include_files(){
 		/**
 		 * Include Plugin Checker
 		 */
-		require( MP_PEOPLE_PLUGIN_DIR . 'includes/plugin-checker/plugin-checker.php' );
+		require( MP_PEOPLE_PLUGIN_DIR . 'includes/plugin-checker/class-plugin-checker.php' );
 		
 		/**
 		 * Check if wp_core in installed
