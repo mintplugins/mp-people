@@ -19,7 +19,7 @@ function mp_people_post_type() {
 			'edit_item' 		=> __('Edit Person', 'mp_people'),
 			'new_item' 			=> __('New Person', 'mp_people'),
 			'all_items' 		=> __('All People', 'mp_people'),
-			'view_item' 		=> __('View People', 'mp_people'),
+			'view_item' 		=> __('View Person', 'mp_people'),
 			'search_items' 		=> __('Search People', 'mp_people'),
 			'not_found' 		=>  __('No People found', 'mp_people'),
 			'not_found_in_trash'=> __('No People found in Trash', 'mp_people'), 
@@ -77,7 +77,7 @@ function mp_people_person_group_taxonomy() {
 				'labels' => $labels,  
 				'query_var' => true,  
 				'with_front' => false, 
-				'rewrite' => array('slug' => 'people')  
+				'rewrite' => array('slug' => 'people-groups')  
 			)  
 		);  
 }  

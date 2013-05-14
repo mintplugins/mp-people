@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'mp_people_links_icons';
+  src: url("../fonts/entypo/entypo-social.eot?8802042");
+  src: url("../fonts/entypo/entypo-social.eot?8802042#iefix") format('embedded-opentype'), url("../fonts/entypo/entypo-social.woff?8802042") format('woff'), url("../fonts/entypo/entypo-social.ttf?8802042") format('truetype'), url("../fonts/entypo/entypo-social.svg?8802042#fontello") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?8802042#fontello') format('svg');
+  }
+}
+*/
+[class^="mp-people-links"]:before,
+[class*=" mp-people-links"]:before,
+.mp-people-links-c-youtube:before {
+  font-family: 'mp_people_links_icons';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+/* opacity .8 */
+/* you can be more comfortable with increased icons size */
+/* font-size: 120%; */
+/* Uncomment for 3D effect */
+/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.mp-people-links-youtube:before { content: '\f300'; } /* '⎉' */
+
+.mp-people-links-github:before { content: '\f300'; } /* '⎉' */
+.mp-people-links-c-github:before { content: '\f301'; } /* '⎉' */
+
+.mp-people-links-flickr:before { content: '\f303'; } /* '⎉' */
+.mp-people-links-c-flickr:before { content: '\f304'; } /* '⎉' */
+
+.mp-people-links-vimeo:before { content: '\f306'; } /* '⎉' */
+.mp-people-links-c-vimeo:before { content: '\f307'; } /* '⎉' */
+
+.mp-people-links-c-twitter:before { content: '\f309'; } /* '⎉' */
+.mp-people-links-twitter:before { content: '\f30A'; } /* '⎉' */
+
+.mp-people-links-c-facebook:before { content: '\f30C'; } /* '⎉' */
+.mp-people-links-facebook:before { content: '\f30D'; } /* '⎉' */
+
+.mp-people-links-c-facebook:before { content: '\f30C'; } /* '⎉' */
+.mp-people-links-facebook:before { content: '\f30D'; } /* '⎉' */
+.mp-people-links-s-facebook:before { content: '\f30E'; } /* '⎉' */
+
+.mp-people-links-c-google:before { content: '\f30F'; } /* '⎉' */
+.mp-people-links-google:before { content: '\f310'; } /* '⎉' */
+
+.mp-people-links-c-pinterest:before { content: '\f312'; } /* '⎉' */
+.mp-people-links-pinterest:before { content: '\f313'; } /* '⎉' */
+
+.mp-people-links-c-tumblr:before { content: '\f315'; } /* '⎉' */
+.mp-people-links-tumblr:before { content: '\f316'; } /* '⎉' */
+
+.mp-people-links-c-linkedin:before { content: '\f318'; } /* '⎉' */
+.mp-people-links-linkedin:before { content: '\f319'; } /* '⎉' */
+
+.mp-people-links-c-dribbble:before { content: '\f31B'; } /* '⎉' */
+.mp-people-links-dribbble:before { content: '\f31C'; } /* '⎉' */
+
+.mp-people-links-c-stumbleupon:before { content: '\f31E'; } /* '⎉' */
+.mp-people-links-stumbleupon:before { content: '\f31F'; } /* '⎉' */
+
+.mp-people-links-c-lastfm:before { content: '\f321'; } /* '⎉' */
+.mp-people-links-lastfm:before { content: '\f322'; } /* '⎉' */
+
+.mp-people-links-c-rdio:before { content: '\f324'; } /* '⎉' */
+.mp-people-links-rdio:before { content: '\f325'; } /* '⎉' */
+
+.mp-people-links-c-spotify:before { content: '\f327'; } /* '⎉' */
+.mp-people-links-spotify:before { content: '\f328'; } /* '⎉' */
+
+.mp-people-links-c-spotify:before { content: '\f327'; } /* '⎉' */
+.mp-people-links-spotify:before { content: '\f328'; } /* '⎉' */
+
+.mp-people-links-instragram:before { content: '\f32d'; } /* '⎉' */
+
+.mp-people-links-dropbox:before { content: '\f330'; } /* '⎉' */
+
+.mp-people-links-evernote:before { content: '\f333'; } /* '⎉' */
+
+.mp-people-links-flattr:before { content: '\f336'; } /* '⎉' */
+
+.mp-people-links-c-skype:before { content: '\f33A'; } /* '⎉' */
+.mp-people-links-skype:before { content: '\f339'; } /* '⎉' */
+
+.mp-people-links-renren:before { content: '\f33C'; } /* '⎉' */
+
+.mp-people-links-paypal:before { content: '\f342'; } /* '⎉' */
+
+.mp-people-links-picasa:before { content: '\f345'; } /* '⎉' */
+
+.mp-people-links-soundcloud:before { content: '\f348'; } /* '⎉' */
+
+.mp-people-links-mixi:before { content: '\f34B'; } /* '⎉' */
+
+.mp-people-links-googlecircles:before { content: '\f351'; } /* '⎉' */
+
+.mp-people-links-smashing:before { content: '\f357'; } /* '⎉' */
+

@@ -124,6 +124,11 @@ function mp_people_include_files(){
 		require( MP_PEOPLE_PLUGIN_DIR . 'includes/updater/mp-people-update.php' );
 		
 		/**
+		 * Enqueue Scripts
+		 */
+		require( MP_PEOPLE_PLUGIN_DIR . 'includes/misc-functions/enqueue-scripts.php' );
+		
+		/**
 		 * Settings Metabox for mp_people
 		 */
 		require( MP_PEOPLE_PLUGIN_DIR . 'includes/metaboxes/mp-person-meta/mp-person-meta.php' );
@@ -131,12 +136,17 @@ function mp_people_include_files(){
 		/**
 		 * Settings Metabox for mp_social_networks
 		 */
-		require( MP_PEOPLE_PLUGIN_DIR . 'includes/metaboxes/mp-social-networks/mp-social-networks.php' );
+		require( MP_PEOPLE_PLUGIN_DIR . 'includes/metaboxes/mp-links/mp-links.php' );
 		
 		/**
 		 * People Custom Post Type
 		 */
 		require( MP_PEOPLE_PLUGIN_DIR . 'includes/custom-post-types/people.php' );
+		
+		/**
+		 * Template Tags
+		 */
+		require( MP_PEOPLE_PLUGIN_DIR . 'includes/template-tags/template-tags.php' );
 			
 	}
 }

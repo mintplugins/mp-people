@@ -22,40 +22,13 @@ function mp_people_create_meta_box(){
 	 */
 	$mp_people_items_array = array(
 		array(
-			'field_id'			=> 'person_image',
-			'field_title' 	=> __( 'Person\'s Image', 'mp_people'),
-			'field_description' 	=> 'Upload a picture of this person (Optional)',
-			'field_type' 	=> 'mediaupload',
-			'field_value' => '',
-		),
-		array(
-			'field_id'			=> 'person_title',
-			'field_title' 	=> __( 'Person\'s title', 'mp_people'),
-			'field_description' 	=> '(EG: Mr. Ms. Mrs. Dr. etc)',
+			'field_id'			=> 'person_nickname',
+			'field_title' 	=> __( 'Person\'s Nickname (Optional)', 'mp_people'),
+			'field_description' 	=> 'This is the name used by various themes when just 1 short name is used.',
 			'field_type' 	=> 'textbox',
 			'field_value' => ''
 		),
-		array(
-			'field_id'			=> 'person_first_name',
-			'field_title' 	=> __( 'First Name', 'mp_people'),
-			'field_description' 	=> 'Enter this person\'s first name (Optional)',
-			'field_type' 	=> 'textbox',
-			'field_value' => '',
-		),
-		array(
-			'field_id'			=> 'person_middle_name',
-			'field_title' 	=> __( 'Middle Name', 'mp_people'),
-			'field_description' 	=> 'Enter this person\'s middle name (Optional)',
-			'field_type' 	=> 'textbox',
-			'field_value' => '',
-		),
-		array(
-			'field_id'			=> 'person_last_name',
-			'field_title' 	=> __( 'Last Name', 'mp_people'),
-			'field_description' 	=> 'Enter this person\'s last name (Optional)',
-			'field_type' 	=> 'textbox',
-			'field_value' => '',
-		),
+		
 	);
 	
 	
