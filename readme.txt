@@ -1,41 +1,40 @@
-=== Move Plugins Core ===
+=== MP People ===
 Contributors: johnstonphilip
 Donate link: http://moveplugins.com/
-Tags: message bar, header
-Requires at least: 3.0.1
-Tested up to: 3.5
-Stable tag: 4.3
+Tags: people,custom post type
+Requires at least: 3.3
+Tested up to: 3.6
+Stable tag: 1.0.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin gives developers access to a core set of classes for creating Settings, Metaboxes, Widgets, Plugins and more.
+Save person profiles and display them in groups such as "Staff".
 
 == Description ==
 
-This plugin gives developers access to a core set of classes for creating Settings, Metaboxes, Widgets, Plugins and more.
+This plugin makes it easy it to save and display "Persons" along with info about them, their picture, and social links. You can then display them in groups such as "Staff", or "The Avengers", or "The Justice League" etc.
 
+While this will work with any theme, themes that have built in styles for this plugin will generally look better.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-1. Upload the 'message-bar' folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to Settings > Message Bar and fill out the options. 
+Full instructions available at:
+http://moveplugins.com/doc/mp-people/
 
 == Frequently Asked Questions ==
 
-= What do I do with this?  =
-
-After you install, make sure to fill out all options under the Settings > Message Bar panel in the WordPress admin area.
+Full instructions and FAQ available at:
+http://moveplugins.com/doc/mp-people/
 
 == Screenshots ==
 
-1. This is a screenshot of the Message Bar in action.
+1. Creating a new Person.
 
-2. This is a screenshot of the Message Bar option.
+2. A sample display page for a person.
+
+3. A sample display page for a People Group
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0.0 =
 * Original release
