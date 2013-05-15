@@ -129,6 +129,11 @@ function mp_people_include_files(){
 		require( MP_PEOPLE_PLUGIN_DIR . 'includes/misc-functions/enqueue-scripts.php' );
 		
 		/**
+		 * Misc Functions
+		 */
+		require( MP_PEOPLE_PLUGIN_DIR . 'includes/misc-functions/misc-functions.php' );
+		
+		/**
 		 * Settings Metabox for mp_people
 		 */
 		require( MP_PEOPLE_PLUGIN_DIR . 'includes/metaboxes/mp-person-meta/mp-person-meta.php' );
@@ -147,7 +152,7 @@ function mp_people_include_files(){
 		 * Template Tags
 		 */
 		require( MP_PEOPLE_PLUGIN_DIR . 'includes/template-tags/template-tags.php' );
-			
+				
 	}
 }
 add_action('plugins_loaded', 'mp_people_include_files', 9);
