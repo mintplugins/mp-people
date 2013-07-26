@@ -4,7 +4,7 @@ Donate link: http://moveplugins.com/
 Tags: people,custom post type
 Requires at least: 3.3
 Tested up to: 3.6
-Stable tag: 1.0.0.0
+Stable tag: 1.0.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,9 @@ http://moveplugins.com/doc/mp-people/
 3. A sample display page for a People Group
 
 == Changelog ==
+
+= 1.0.0.2 = July 26, 2013
+*plugin-checker/plugin-installer classes change
 
 = 1.0.0.1 = May 17, 2013
 * Changed updates and plugin check from moveplugins.com to repo.moveplugins.com

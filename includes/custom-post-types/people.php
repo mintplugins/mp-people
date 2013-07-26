@@ -81,7 +81,7 @@ function mp_people_person_group_taxonomy() {
 			)  
 		);  
 }  
-add_action( 'init', 'mp_people_person_group_taxonomy' );  
+add_action( 'after_setup_theme', 'mp_people_person_group_taxonomy' );  
 
 /**
  * Change default title
@@ -140,7 +140,7 @@ function mp_people_person_taxonomy() {
 			)  
 		);  
 }  
-add_action( 'init', 'mp_people_person_taxonomy');  
+add_action( 'after_setup_theme', 'mp_people_person_taxonomy');  
 
 
 /**
