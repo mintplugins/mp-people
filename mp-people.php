@@ -3,7 +3,7 @@
 Plugin Name: MP People
 Plugin URI: http://moveplugins.com
 Description: Save person profiles and display them in groups such as "Staff".
-Version: 1.0.0.2
+Version: 1.0.0.3
 Author: Move Plugins
 Author URI: http://moveplugins.com
 Text Domain: mp_people

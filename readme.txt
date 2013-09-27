@@ -36,6 +36,10 @@ http://moveplugins.com/doc/mp-people/
 
 == Changelog ==
 
+= 1.0.0.3: September 27, 2013 =
+* Change: Plugin Checker/Installer/Updater class and function updates. 
+* Change: API URL change to repo.moveplugins.com -> moveplugins.com.
+
 = 1.0.0.2 = July 26, 2013
 *plugin-checker/plugin-installer classes change
 
